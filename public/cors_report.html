@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CORS Debug Report</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>CORS Debug Report</h1>
+
+  <section>
+    <h2>Target Endpoint</h2>
+    <input type="text" id="target-url" placeholder="https://api.example.com/data" />
+    <button onclick="runCorsTest()">Run Test</button>
+  </section>
+
+  <section>
+    <h2>OPTIONS Response</h2>
+    <pre id="options-output">Waiting for OPTIONS response...</pre>
+  </section>
+
+  <section>
+    <h2>GET Response</h2>
+    <pre id="get-output">Waiting for GET response...</pre>
+  </section>
+
+  <section>
+    <h2>Raw Headers</h2>
+    <pre id="raw-headers">No headers captured yet.</pre>
+  </section>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
