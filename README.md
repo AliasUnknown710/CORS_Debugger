@@ -29,14 +29,19 @@ Python script and local dashboard for testing CORS behavior across any API endpo
 
 2. 	Run the script:
 
-   python3 test_cors.py
+      python3 test_cors.py
 
 3. 	Review printed headers:
+
+   
   Access-Control-Allow-Origin
 
+
   Access-Control-Allow-Methods
+
   
   Access-Control-Allow-Headers
+
 
 ## 🔹 Local Dashboard- Open public/index.html in a browser.
 
