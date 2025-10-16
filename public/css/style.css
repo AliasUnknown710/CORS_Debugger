@@ -1,0 +1,38 @@
+body {
+  font-family: monospace;
+  background-color: #111;
+  color: #0f0;
+  padding: 2em;
+}
+
+h1, h2 {
+  color: #0ff;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+  background: #222;
+  color: #0f0;
+  border: 1px solid #0ff;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 0.5em 1em;
+  background: #0ff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+pre {
+  background-color: #222;
+  padding: 1em;
+  border-radius: 4px;
+  white-space: pre-wrap;
+}
