@@ -34,13 +34,13 @@ Python script and local dashboard for testing CORS behavior across any API endpo
 3. 	Review printed headers:
 
    
-  Access-Control-Allow-Origin
+      Access-Control-Allow-Origin
 
 
-  Access-Control-Allow-Methods
+      Access-Control-Allow-Methods
 
   
-  Access-Control-Allow-Headers
+      Access-Control-Allow-Headers
 
 
 ## 🔹 Local Dashboard- Open public/index.html in a browser.
